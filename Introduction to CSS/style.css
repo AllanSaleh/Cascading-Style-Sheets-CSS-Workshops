@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+#body {
+  background: #aa4b6b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+
+.body {
+  background-color: aqua;
+}
+
+body {
+  background-color: red;
+}
+
+h1{
+    text-align: center;
+}
+
+.block-display{
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+#button{
+    background-color: #aa4b6b;
+    color: white;
+}
+
+a{
+    color: #aa4b6b;
+    text-decoration: none;
+}
+
+/* .white_text {
+  color: white;
+} */
+
+/* #dob {
+  background-color: rgb(133, 133, 237);
+} */
+
+/* h1, h2 {
+    background-color: black;
+    color: white;
+} */
+
+/* h1{
+    background-image: url(./ct.png);
+    background-position: center;
+} */
+
+/* form label {
+  color: darkblue;
+  background-color: lightblue;
+} */
