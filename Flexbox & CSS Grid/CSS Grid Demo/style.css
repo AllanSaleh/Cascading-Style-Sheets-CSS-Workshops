@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #1f4037; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #99f2c8,
+    #1f4037
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #99f2c8,
+    #1f4037
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+}
+
+.grid{
+    display: grid;
+    border: gray solid 5px;
+    height: 100%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px auto 200px;
+}
+
+.box{
+    border: 3px solid black;
+}
+
+.item1{
+  grid-column: 1 / span 2;
+}
+
+.item3{
+grid-row: 2 / 4;
+}
